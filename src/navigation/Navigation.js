@@ -1,10 +1,11 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
-import { HOME, ISLAND } from "../constant/constant";
+import { HOME, ISLAND, DETAIL_ADAT } from "../constant/constant";
 
 // UI SCREEN
 import Home from "../screens/Home";
 import Islands from "../screens/Islands";
+import DetailAdat from "../screens/DetailAdat";
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +18,16 @@ const Navigation = () => {
           name={HOME}
           component={Home}
         />
-        <Stack.Screen name={ISLAND} component={Islands} />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name={ISLAND}
+          component={Islands}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name={DETAIL_ADAT}
+          component={DetailAdat}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

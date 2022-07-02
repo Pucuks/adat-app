@@ -22,16 +22,16 @@ const Home = ({ navigation }) => {
             <React.Fragment>
               <MyButton
                 title={item.title}
-                onPress={() => navigation.navigate(ISLAND)}
+                onPress={() =>
+                  navigation.navigate(ISLAND, {
+                    listProvinsi: item.listProvinsi,
+                  })
+                }
               />
               <View style={{ marginBottom: 8 }} />
             </React.Fragment>
           );
         }}
-      />
-      <Button
-        title="Pergi Ke Pulau"
-        onPress={() => navigation.navigate(ISLAND)}
       />
     </SafeAreaView>
   );
