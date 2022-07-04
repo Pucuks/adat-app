@@ -12,10 +12,10 @@ import AppScreenBackground from "../components/ScreenBackground";
 import AppScreen from "../components/Screen";
 
 const DetailAdat = ({ route }) => {
-  const bajuAdat = route.params;
+  const data = route.params;
   return (
     <ScrollView>
-      <>
+      <AppScreenBackground>
         <Image
           style={styles.image}
           resizeMode="contain"
@@ -24,7 +24,7 @@ const DetailAdat = ({ route }) => {
         <Image
           style={styles.imageCharacter}
           resizeMode="contain"
-          source={bajuAdat.image}
+          source={data.image}
         />
         <Image
           style={styles.imageMatahari}
@@ -32,53 +32,45 @@ const DetailAdat = ({ route }) => {
           source={require("../images/matahari.png")}
         />
 
-        <Text style={styles.heading}>{bajuAdat.titleProvinsi}</Text>
+        <Text style={styles.heading}>{data.titleProvinsi}</Text>
 
         <View style={styles.borderCard}>
           <View style={styles.viewCard}>
-            <Text style={styles.textTitle}>{bajuAdat.mahkota.title}</Text>
-            <Text style={styles.baseText}>Pria : {bajuAdat.mahkota.pria}</Text>
+            <Text style={styles.textTitle}>{data.mahkota.title}</Text>
+            <Text style={styles.baseText}>Pria : {data.mahkota.pria}</Text>
+            <Text style={styles.baseText}>Wanita : {data.mahkota.wanita}</Text>
+          </View>
+          <View style={{ marginBottom: 20 }} />
+          <View style={styles.viewCard}>
+            <Text style={styles.textTitle}>{data.atasan.title}</Text>
+            <Text style={styles.baseText}>Pria : {data.atasan.pria}</Text>
+
+            <Text style={styles.baseText}>Wanita : {data.atasan.wanita}</Text>
+          </View>
+          <View style={{ marginBottom: 20 }} />
+          <View style={styles.viewCard}>
+            <Text style={styles.textTitle}>{data.bawahan.title}</Text>
+            <Text style={styles.baseText}>Pria : {data.bawahan.pria}</Text>
+
+            <Text style={styles.baseText}>Wanita : {data.bawahan.wanita}</Text>
+          </View>
+          <View style={{ marginBottom: 20 }} />
+          <View style={styles.viewCard}>
+            <Text style={styles.textTitle}>{data.aksesoris.title}</Text>
+
+            <Text style={styles.baseText}>Pria : {data.aksesoris.pria}</Text>
+
             <Text style={styles.baseText}>
-              Wanita : {bajuAdat.mahkota.wanita}
+              Wanita : {data.aksesoris.wanita}
             </Text>
           </View>
           <View style={{ marginBottom: 20 }} />
           <View style={styles.viewCard}>
-            <Text style={styles.textTitle}>{bajuAdat.atasan.title}</Text>
-            <Text style={styles.baseText}>Pria : {bajuAdat.atasan.pria}</Text>
-
-            <Text style={styles.baseText}>
-              Wanita : {bajuAdat.atasan.wanita}
-            </Text>
-          </View>
-          <View style={{ marginBottom: 20 }} />
-          <View style={styles.viewCard}>
-            <Text style={styles.textTitle}>{bajuAdat.bawahan.title}</Text>
-            <Text style={styles.baseText}>Pria : {bajuAdat.bawahan.pria}</Text>
-
-            <Text style={styles.baseText}>
-              Wanita : {bajuAdat.bawahan.wanita}
-            </Text>
-          </View>
-          <View style={{ marginBottom: 20 }} />
-          <View style={styles.viewCard}>
-            <Text style={styles.textTitle}>{bajuAdat.aksesoris.title}</Text>
-
-            <Text style={styles.baseText}>
-              Pria : {bajuAdat.aksesoris.pria}
-            </Text>
-
-            <Text style={styles.baseText}>
-              Wanita : {bajuAdat.aksesoris.wanita}
-            </Text>
-          </View>
-          <View style={{ marginBottom: 20 }} />
-          <View style={styles.viewCard}>
-            <Text style={styles.textTitle}>{bajuAdat.faktaunik.title}</Text>
-            <Text style={styles.baseText}>{bajuAdat.faktaunik.text}</Text>
+            <Text style={styles.textTitle}>{data.faktaunik.title}</Text>
+            <Text style={styles.baseText}>{data.faktaunik.text}</Text>
           </View>
         </View>
-      </>
+      </AppScreenBackground>
     </ScrollView>
   );
 };
@@ -102,7 +94,7 @@ const styles = StyleSheet.create({
     padding: 28,
     width: "100%",
     borderRadius: 25,
-    top: -20,
+    top: -45,
   },
   viewCard: {
     backgroundColor: colors.white,
