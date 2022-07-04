@@ -4,6 +4,8 @@ const colors = {
   primary: "#263D57",
   secondary: "#DFE2FE",
   dongker: "#263D57",
+  soft: "#E3EDFF",
+  abu: "#E5E5E5",
 };
 
 export default colors;

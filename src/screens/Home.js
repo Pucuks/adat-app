@@ -31,6 +31,7 @@ const Home = ({ navigation }) => {
           <Text style={styles.heading}>Pulau</Text>
           <View style={{ marginBottom: 20 }} />
           <FlatList
+            style={{ height: 500 }}
             data={bajuAdat}
             renderItem={({ item }) => {
               return (

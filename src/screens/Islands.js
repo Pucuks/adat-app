@@ -29,6 +29,7 @@ const Islands = ({ route, navigation }) => {
         <Text style={styles.heading}>Provinsi</Text>
         <View style={{ marginBottom: 20 }} />
         <FlatList
+          style={{ height: 550 }}
           data={data.listProvinsi}
           renderItem={({ item }) => {
             return (
@@ -42,6 +43,7 @@ const Islands = ({ route, navigation }) => {
             );
           }}
         />
+        <View style={{ paddingBottom: 50 }} />
       </SafeAreaView>
     </AppScreenBackground>
   );

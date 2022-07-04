@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "adat-app",
+    "description": "Aplikasi Belajar Baju Adat",
     "slug": "adat-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,8 +24,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "package": "com.yourcompany.yourappname"
+      },
+      "package": "com.aglia21.adatapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

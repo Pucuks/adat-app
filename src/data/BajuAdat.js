@@ -5,7 +5,7 @@ const bajuAdat = [
     listProvinsi: [
       //=========LIST KOTA SUMATRA============
       {
-        titleProvinsi: "Aceh",
+        titleProvinsi: "Nanggroe Aceh Darussalam",
         image: require("../images/aceh.png"),
         mahkota: {
           title: "Mahkota",
