@@ -6,6 +6,8 @@ const colors = {
   dongker: "#263D57",
   soft: "#E3EDFF",
   abu: "#E5E5E5",
+  biru: "#92EBEB",
+  card: "#E7F1D6",
 };
 
 export default colors;

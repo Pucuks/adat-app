@@ -24,7 +24,7 @@ export default function WelcomeScreen({ navigation }) {
             resizeMode="contain"
             source={require("../images/indonesia.png")}
           />
-          <Text style={styles.text}>Belajar Baju Adat Bersama</Text>
+          <Text style={styles.text}>Belajar Pakaian Adat Bersama</Text>
         </View>
         <>
           <MyButton

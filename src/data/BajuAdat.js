@@ -7,6 +7,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Nanggroe Aceh Darussalam",
         image: require("../images/aceh.png"),
+        imagebg: require("../images/rmhaceh.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Meukeutop bentuknya lonjong tinggi ke atas dan biasanya dilengkapi dengan lilitan kain sutra",
@@ -40,6 +41,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sumatera Utara",
         image: require("../images/sumaterautara.png"),
+        imagebg: require("../images/rmhsumaterautara.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Ampu Memiliki Bentuk yang Khas dan Bewarna Hitam dan Emas",
@@ -71,6 +73,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sumatera Barat",
         image: require("../images/sumaterabarat.png"),
+        imagebg: require("../images/rmhsumaterabarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Destar atau Deta Merupakan Penutup Kepala Terbuat Kain Warna Hitam dan Dililitkan Dengan Rapih dan Menghasilkan Banyak Kerutan",
@@ -104,6 +107,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Riau",
         image: require("../images/riau.png"),
+        imagebg: require("../images/rmhriau.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Berupa Distar Mahkota Tanjak Dalam Beberapa Bentuk ",
@@ -135,6 +139,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kepulauan Riau",
         image: require("../images/kepulauanriau.png"),
+        imagebg: require("../images/rmhkepulauanriau.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Puncak Penutup Kepala dari Kain Songket Berbentuk Seperti Peci",
@@ -164,6 +169,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Jambi",
         image: require("../images/jambi.png"),
+        imagebg: require("../images/rmhjambi.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Tekuluk atau Kuuk Penutup Kepala yang Berfungsi Sebagai Pelindung Kepala dari Berbagai Kondisi",
@@ -195,6 +201,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sumatera Selatan",
         image: require("../images/sumateraselatan.png"),
+        imagebg: require("../images/rmhsumateraselatan.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Kopiah Cuplak",
@@ -227,6 +234,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Bangka Belitung",
         image: require("../images/bangkabelitung.png"),
+        imagebg: require("../images/rmhbangkabelitung.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Paksian Mahkota Emas Dengan Ornament Khusus",
@@ -259,6 +267,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Bengkulu",
         image: require("../images/bengkulu.png"),
+        imagebg: require("../images/rmhbengkulu.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala Ini Dikenal Dengan Nama Detar ",
@@ -290,6 +299,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Lampung",
         image: require("../images/lampung.png"),
+        imagebg: require("../images/rmhlampung.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Kopiah Emas Berujim Merupakan Penutup Kepala Berbentuk Dasar Kopiah Segi Empat Biasa ",
@@ -330,6 +340,7 @@ const bajuAdat = [
       {
         titleProvinsi: "DKI Jakarta",
         image: require("../images/dkijakarta.png"),
+        imagebg: require("../images/rmhdkijakarta.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Terbuat dari Sorban atau Disebut Alpie ",
@@ -362,6 +373,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Jawa Barat",
         image: require("../images/jawabarat.png"),
+        imagebg: require("../images/rmhjawabarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala yang Bermotif Rereng ",
@@ -392,6 +404,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Banten",
         image: require("../images/banten.png"),
+        imagebg: require("../images/rmhbanten.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala/ Belangkon",
@@ -422,6 +435,7 @@ const bajuAdat = [
       {
         titleProvinsi: "DI Yogyakarta",
         image: require("../images/diyogyakarta.png"),
+        imagebg: require("../images/rmhdiyogyakarta.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Menggunakan Blangkon",
@@ -453,6 +467,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Jawa Tengah",
         image: require("../images/jawatengah.png"),
+        imagebg: require("../images/rmhjawatengah.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Blangkon Tutup Kepala yang Terbuat dari Kain Batik",
@@ -483,6 +498,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Jawa Timur",
         image: require("../images/jawatimur.png"),
+        imagebg: require("../images/rmhjawatimur.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Odheng Penutup Kepala Bermotif Batik Coklat Hitam",
@@ -521,6 +537,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Bali",
         image: require("../images/bali.png"),
+        imagebg: require("../images/rmhbali.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Udeng Penutup Kepala atau Ikat Kepala Khas Bali",
@@ -553,6 +570,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Nusa Tenggara Barat",
         image: require("../images/nusatenggarabarat.png"),
+        imagebg: require("../images/rmhnusatenggarabarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "cappuq atau sapuk",
@@ -585,6 +603,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Nusa Tenggara Timur",
         image: require("../images/nusatenggaratimur.png"),
+        imagebg: require("../images/rmhnusatenggaratimur.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Tri Langga Terbuat dari Daun Lontar yang Dikeringkan",
@@ -621,6 +640,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kalimantan Utara ",
         image: require("../images/kalimantanutara.png"),
+        imagebg: require("../images/rmhkalimantanutara.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Anyaman Daun Pandan dan Diberi Manik Manik Dengan Tambahan Bulu Burung Enggang",
@@ -651,6 +671,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kalimatan Barat",
         image: require("../images/kalimantanbarat.png"),
+        imagebg: require("../images/rmhkalimantanbarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Memakai Ikat Kepala Bulu Burung dari Enggang Gading",
@@ -680,6 +701,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kalimantan Tengah",
         image: require("../images/kalimantantengah.png"),
+        imagebg: require("../images/rmhkalimantantengah.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Kopyah atau Peci yang Selaras Dengan Baju yang Dipakai ",
@@ -712,6 +734,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kalimantan Selatan",
         image: require("../images/kalimantanselatan.png"),
+        imagebg: require("../images/rmhkalimantanselatan.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Mahkota Dengan Bentuk Ular Lidi",
@@ -742,6 +765,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Kalimantan Timur",
         image: require("../images/kalimantantimur.png"),
+        imagebg: require("../images/rmhkalimantantimur.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Kopiah Bundar Tinggi 15 Cm yang Dinamakan Setorong",
@@ -777,6 +801,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sulawesi Utara",
         image: require("../images/sulawesiutara.png"),
+        imagebg: require("../images/rmhsulawesiselatan.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala Bentuk Segitiga",
@@ -806,6 +831,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sulawesi Barat",
         image: require("../images/sulawesibarat.png"),
+        imagebg: require("../images/rmhsulawesibarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala Bernama Songok Tobone Warna yang Disesuaikan Dengan Busana yang Digunakan",
@@ -838,6 +864,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sulawesi Tengah",
         image: require("../images/sulawesitengah.png"),
+        imagebg: require("../images/rmhsulawesitengah.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Tutup Kepala Songgo",
@@ -868,6 +895,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sulawesi Tenggara",
         image: require("../images/sulawesitenggara.png"),
+        imagebg: require("../images/rmhsulawesitenggara.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Pabele Penutup Kepala yang Bentuknya Rucing Dibagian Depan Dengan Hiasan Manik-Manik ",
@@ -898,6 +926,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Sulawesi Selatan",
         image: require("../images/sulawesiselatan.png"),
+        imagebg: require("../images/rmhsulawesiselatan.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Topi Kain yang Dililitkan",
@@ -927,6 +956,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Gorontalo",
         image: require("../images/gorontalo.png"),
+        imagebg: require("../images/rmhgorontalo.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Tudung Disebut Makuta",
@@ -963,6 +993,7 @@ const bajuAdat = [
       {
         titleProvinsi: "Maluku",
         image: require("../images/maluku.png"),
+        imagebg: require("../images/rmhmaluku.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Topi yang Bewarna Emas atau Perak",
@@ -992,10 +1023,11 @@ const bajuAdat = [
       {
         titleProvinsi: "Maluku Utara",
         image: require("../images/malukuutara.png"),
+        imagebg: require("../images/rmhmalukuutara.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Toala Polulu",
-          wanita: "",
+          wanita: "menggunakan sanggul yang dilengkapi dengan tusuk konde.",
         },
         atasan: {
           title: "Atasan",
@@ -1009,7 +1041,7 @@ const bajuAdat = [
         },
         aksesoris: {
           title: "Aksesoris",
-          pria: "",
+          pria: "Ikat pingganh,ikatan kain berwarna merah dan biasanya sering digunakan oleh kaum pria.",
           wanita: "Kalung Rantai, Emas, Anting Susun Dua, Serta Alas Kaki",
         },
         faktaunik: {
@@ -1021,15 +1053,16 @@ const bajuAdat = [
       {
         titleProvinsi: "Papua",
         image: require("../images/papua.png"),
+        imagebg: require("../images/rmhpapua.png"),
         mahkota: {
           title: "Mahkota",
-          pria: "",
-          wanita: "",
+          pria: "Terbuat dari bulu burung",
+          wanita: "Terbuat dari bulu burung",
         },
         atasan: {
           title: "Atasan",
-          pria: " ",
-          wanita: " ",
+          pria: "Terbuat dari kulit pohon bewarna mencolok ",
+          wanita: "Baju kurung dari daun sagu",
         },
         bawahan: {
           title: "Bawahan",
@@ -1038,18 +1071,20 @@ const bajuAdat = [
         },
         aksesoris: {
           title: "Aksesoris",
-          pria: "",
-          wanita: "",
+          pria: " Koteka terbuat dari labu air yg sudah tua, tato alami dari ramuan getah dan arang",
+          wanita:
+            "Hiasan rumbai bulu yg melingkar di pinggang, lengan, dan tepi leher, gelang, dan kalung bjji bijian ",
         },
         faktaunik: {
           title: "Fakta Unik",
-          text: "",
+          text: "Pakaian adat Papua belum terpengaruh oleh budaya luar sehingga masih sangat original dan genuine, benar-benar masih asli. Pakaian adat Papua mengisyaratkan bahwa penduduknya hidup berdampingan dengan alam sekitar. Keunikan pakaian adat Papua tersebut menjadikan pakaian adat mereka dikenal di Indonesia dan dunia internasional",
         },
       },
       //=========LIST KOTA MALUKU & PAPUA ============
       {
         titleProvinsi: "Papua Barat",
         image: require("../images/papuabarat.png"),
+        imagebg: require("../images/rmhpapuabarat.png"),
         mahkota: {
           title: "Mahkota",
           pria: "Penutup Kepala dari Bulu",

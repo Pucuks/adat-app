@@ -10,16 +10,17 @@ import {
 import colors from "../constant/colors";
 import AppScreenBackground from "../components/ScreenBackground";
 import AppScreen from "../components/Screen";
+import ScreenCard from "../components/ScreenCard";
 
 const DetailAdat = ({ route }) => {
   const data = route.params;
   return (
     <ScrollView>
-      <AppScreenBackground>
+      <ScreenCard>
         <Image
           style={styles.image}
           resizeMode="contain"
-          source={require("../images/jalan.png")}
+          source={data.imagebg}
         />
         <Image
           style={styles.imageCharacter}
@@ -70,7 +71,7 @@ const DetailAdat = ({ route }) => {
             <Text style={styles.baseText}>{data.faktaunik.text}</Text>
           </View>
         </View>
-      </AppScreenBackground>
+      </ScreenCard>
     </ScrollView>
   );
 };
@@ -90,7 +91,7 @@ const styles = StyleSheet.create({
     fontFamily: "monospace",
   },
   borderCard: {
-    backgroundColor: colors.soft,
+    backgroundColor: colors.card,
     padding: 28,
     width: "100%",
     borderRadius: 25,
